@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities{
+  .graident{
+@apply bg-gradient-to-r from-green-600 via-blue-600 to-pink-600
+  }
+}
